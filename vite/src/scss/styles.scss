@@ -34,7 +34,9 @@ $offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 $body-color: #333;
 $body-bg: #fff;
 $border-radius: .4rem;
-$success: #7952b3;
+$success: #ff0808;
+$dark: rgb(49, 49, 49);
+
 
 // Required
 @import "~bootstrap/scss/functions";
@@ -88,6 +90,48 @@ $success: #7952b3;
 
 @import "icon-list";
 
-body {
-  padding: 1.5rem;
+
+
+.celda{
+  border: 1px solid black;
+  height: 30px;
+  width: 30px;
+  
+  background-color: #3e3e3e;
+  box-sizing: content-box;
+}
+
+.p-fila{
+  display: flex;
+}
+
+#panel{
+  border: 1px solid black;
+  width: 300px;
+  color: black;
+}
+
+.pieza-larga{
+  display: flex;
+}
+.palo{
+  display: wrap;
+}
+.ele{
+  text-align: center;
+}
+.doblar{
+  display: flex;
+}
+.blanco{
+  color: #fff;
+}
+.gris{
+  color: rgb(186, 171, 171);
+}
+.verde{
+  background-color: #004600;
+}
+.vertical{
+  display: wrap;
 }
